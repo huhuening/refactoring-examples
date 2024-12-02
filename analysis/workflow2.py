@@ -2,7 +2,7 @@ from math import *
 
 # read sample files
 
-#with open('data1.csv') as file1:
+# open the file
 with open('samples1.csv') as file1:
     lines1 = file1.readlines()
     data1 = []
@@ -12,7 +12,7 @@ with open('samples1.csv') as file1:
             row.append(float(n.strip()))
         data1.append(row)
 
-#with open('data2.csv') as file1:
+#open the file
 with open('samples2.csv') as file2:
     lines2 = file2.readlines()
     data2 = []
